@@ -8,12 +8,12 @@ from starlette.applications import Starlette
 from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
-pip install gdown
-import gdown
+# pip install gdown
+# import gdown
 
-url = 'https://drive.google.com/uc?id=1-Sr0PRZT201KyIvlpj6Q2OnQ9wsm0ZW6'
+# url = 'https://drive.google.com/uc?id=1-Sr0PRZT201KyIvlpj6Q2OnQ9wsm0ZW6'
 export_file_name = 'export.pkl'
-export_file_url = gdown.download(url, export_file_name, quiet=False)
+export_file_url = 'https://drive.google.com/uc?id=1-Sr0PRZT201KyIvlpj6Q2OnQ9wsm0ZW6'
 
 
 classes = ['Banana', 'Banana Lady Finger', 'Banana Red']
