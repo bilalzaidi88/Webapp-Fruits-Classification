@@ -8,6 +8,7 @@ from starlette.applications import Starlette
 from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
+pip install gdown
 import gdown
 
 url = 'https://drive.google.com/uc?id=1-Sr0PRZT201KyIvlpj6Q2OnQ9wsm0ZW6'
