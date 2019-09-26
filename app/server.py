@@ -8,10 +8,9 @@ from starlette.applications import Starlette
 from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
+import gdown
 
-from google_drive_downloader import GoogleDriveDownloader as gdd
-
-export_file_url = gdd.download_file_from_google_drive(file_id='https://drive.google.com/open?id=1-Sr0PRZT201KyIvlpj6Q2OnQ9wsm0ZW6')
+export_file_url = gdown https://drive.google.com/uc?id=0B7EVK8r0v71pOXBhSUdJWU1MYUk
 # export_file_url = 'https://drive.google.com/open?id=1-Sr0PRZT201KyIvlpj6Q2OnQ9wsm0ZW6'
 export_file_name = 'export.pkl'
 
