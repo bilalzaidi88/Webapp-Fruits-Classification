@@ -6,6 +6,29 @@
 </head>
 <body>
 <div>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.0.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCvHCEiXL1Kf-mf_FGHnsd5Ld0Z6Au1EFY",
+    authDomain: "billysfruits.firebaseapp.com",
+    databaseURL: "https://billysfruits.firebaseio.com",
+    projectId: "billysfruits",
+    storageBucket: "",
+    messagingSenderId: "768975948591",
+    appId: "1:768975948591:web:de1b4ead2a4c547a1b6fda",
+    measurementId: "G-WZMYD2Y337"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
   <div class='center'>
     <div class='title'>Classify Billys Favorite Fruits Images 🍌🍎🍓🍒🍐🍉🍇</div>
     <p>
